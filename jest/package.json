@@ -1,0 +1,20 @@
+{
+  "name": "jest_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage --no-cache ./*"
+  },
+  "author": "Andrécio Bezerra <andreciobezerra@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+     "jest": "^25.2.0"
+  }
+}
