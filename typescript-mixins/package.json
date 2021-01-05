@@ -1,0 +1,16 @@
+{
+  "name": "typescript-mixins",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Andrécio Bezerra <andreciobezerra@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "dev": "ts-node-dev --respawn src/app.ts --watch ./src --transpileOnly"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
